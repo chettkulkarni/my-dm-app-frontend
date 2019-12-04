@@ -2,9 +2,7 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import Row from "react-bootstrap/Row";
 import ButtonAppBar from './appbar.js';
-import {Label, Input, Button, Card, Row, Col} from 'reactstrap';
 import SearchBar from './searchbar'
-import { Jumbotron } from "react-bootstrap";
 import { Paper } from "@material-ui/core";
 
 class index extends Component {
@@ -26,7 +24,11 @@ class index extends Component {
 
 
         <div>
-          <h1>Tweet Sentiment Analysis of Impeach data set mined during recent impeachment hearing,Also From Custom Tweet search</h1>
+          <h1>Sentiment Analysis of tweets mined during recent impeachment hearing</h1>
+          
+          <p>   </p>
+          <p>   </p>
+          <h2>And real time tweet Sentiment Analysis</h2>
           <p><b>Team Members</b></p>
           <p>Chetan Kulkarni</p>
           <p>Ronak Mehta </p>
